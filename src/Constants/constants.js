@@ -102,7 +102,7 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
     "My name is Milla, I'm a Backend Developer with 3 years of experience.",
-    "I love making systems run better and faster.",
+    "I love making systems run faster and better.",
     "I'm good at designing systems, keeping an eye on them, defining how different parts talk to each other, and working well with others to make things work smoothly.",
 
     " I'm a software engineer. I have a strong passion for the technologies related to the data base construction and UX.",
@@ -162,7 +162,7 @@ const projects = [
   },
   {
     name: 'Settlement batch process',
-    description: 'Implemented a settlement batch program using the Spring Batch framework and deployed it organization-wide.',
+    description: 'I Implemented a settlement batch program using the Spring Batch framework and deployed it organization-wide.',
     image: batch,
     source_code_link: 'https://github.com/bl33h/calculator',
     demo_link: 'https://bl33hscalculator.netlify.app/',
@@ -176,7 +176,7 @@ const projects = [
   },
   {
     name: 'Tuna',
-    description: 'Website that matches musicians and clients using hashtags. They implemented sample music file processing using AWS S3 and utilized JPA and MySQL for database operations.',
+    description: 'I implemented this website that matches musicians and clients using hashtags. They implemented sample music file processing using AWS S3 and utilized JPA and MySQL for database operations.',
     image: tuna,
     source_code_link: 'https://github.com/bl33h/calculator',
     demo_link: 'https://bl33hscalculator.netlify.app/',
