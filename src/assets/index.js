@@ -16,6 +16,7 @@ import cssIcon from './tech/css.png';
 import jsIcon from './tech/javascript.png';
 import reactIcon from './tech/reactjs.png';
 import awsIcon from './tech/aws.png';
+import railsIcon from './tech/ralis.png';
 import javaIcon from './tech/java.png';
 import gitIcon from './tech/git.png';
 import githubIcon from './tech/github.png';
@@ -47,6 +48,7 @@ import payment from './projects/payment.png';
 import admin from './projects/amdin.png';
 import batch from './projects/batch.png';
 import monitoring from './projects/monitoring.png';
+import estate from './projects/estate.png';
 
 // Avatar
 import avatar from './avatar/avatar.png';
@@ -86,6 +88,8 @@ export {
     admin,
     batch,
     monitoring,
+    estate,
   avatar,
   bl33hIcon,
+  railsIcon,
 };

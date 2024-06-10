@@ -55,7 +55,9 @@ import {
   admin,
   batch,
   monitoring,
+    estate,
   avatar,
+  railsIcon,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -84,6 +86,7 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  railsIcon,
 };
 
 const icons = {
@@ -147,6 +150,13 @@ const projects = [
     demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
   },
   {
+    name: 'Real Estate Web application',
+    description: 'Built an interactive map search feature using Google Maps API, enabling users to visually explore properties based on location, amenities, and nearby points of interest. This feature increased user interaction by 50%.',
+    image: estate,
+    source_code_link: 'https://github.com/bl33h/calculator',
+    demo_link: 'https://bl33hscalculator.netlify.app/',
+  },
+  {
     name: 'Monitoring System',
     description: 'I implemented a common monitoring system using Elasticsearch for our team\'s project. This system includes an alerting system and monitoring module. I established monitoring criteria by analyzing transaction data on a regular basis.',
     image: monitoring,
@@ -208,6 +218,13 @@ const skills = [
     icon: oracleIcon,
     description:
         'I have a strong command of Oracle, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
+  },
+  {
+    id: 'rails',
+    title: 'Rails',
+    icon: railsIcon,
+    description:
+        'I have an experience of Ruby on Rails, encompassing a wide range of skills such as RESTful API development, MVC architecture, Active Record, and front-end integration using frameworks ',
   },
   {
     id: 'kafka',
